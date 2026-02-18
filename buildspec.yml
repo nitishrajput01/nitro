@@ -13,6 +13,7 @@ phases:
       - ng build --configuration production
 
 artifacts:
+  base-directory: dist/s3-example-aws/browser
   files:
-    - 'dist/s3-example-aws/**/*'
+    - /**/*'
   discard-paths: no
