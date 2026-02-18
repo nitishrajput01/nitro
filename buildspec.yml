@@ -15,5 +15,4 @@ phases:
 artifacts:
   base-directory: dist/s3-example-aws
   files:
-    - '/**/*'
-  discard-paths: no
+    - '**/*'
